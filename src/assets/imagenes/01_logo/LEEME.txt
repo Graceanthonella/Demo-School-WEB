@@ -1,0 +1,4 @@
+Aqui va el logo oficial del colegio.
+Formatos aceptados: PNG (preferido), JPG o SVG.
+Ideal: fondo transparente (PNG con transparencia).
+Tamaño recomendado: mínimo 500x500px.
