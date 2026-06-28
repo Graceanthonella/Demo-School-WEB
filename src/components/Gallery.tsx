@@ -1,4 +1,5 @@
 import { useState, useCallback } from 'react';
+import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ChevronLeft, ChevronRight, Image as ImageIcon, ZoomIn } from 'lucide-react';
 
@@ -202,7 +203,7 @@ export default function Gallery() {
 
       {/* ─── LIGHTBOX — navigates ONLY within current filter ─── */}
       <AnimatePresence>
-        {lightboxItem && (
+        {lightboxItem && createPortal(
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -274,7 +275,8 @@ export default function Gallery() {
               onMouseOver={e => { e.currentTarget.style.background = 'rgba(var(--primary-rgb),0.7)'; e.currentTarget.style.borderColor = 'var(--primary)'; }}
               onMouseOut={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.12)'; e.currentTarget.style.borderColor = 'rgba(255,255,255,0.2)'; }}
             ><ChevronRight size={24} /></button>
-          </motion.div>
+          </motion.div>,
+          document.body
         )}
       </AnimatePresence>
 
