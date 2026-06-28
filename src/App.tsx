@@ -232,11 +232,11 @@ export default function App() {
                 </a>
 
                 {/* Website */}
-                <a href="https://escuelaecan.com" target="_blank" rel="noopener noreferrer"
+                <a href="https://www.cristoalasnaciones.com/ecanelsalvador/" target="_blank" rel="noopener noreferrer"
                   style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '0.875rem', textDecoration: 'none', color: 'var(--primary)', fontWeight: 600 }}
                 >
                   <span style={{ flexShrink: 0 }}>🌐</span>
-                  escuelaecan.com
+                  cristoalasnaciones.com
                 </a>
               </div>
 

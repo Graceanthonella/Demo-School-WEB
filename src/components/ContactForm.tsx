@@ -64,7 +64,7 @@ export default function ContactForm() {
           <Phone size={16} />
           <span>Contacto Directo</span>
         </span>
-        <h2 style={{ fontSize: '2.5rem', lineHeight: '1.2' }}>¿Listo para empezar tu <span className="text-gradient">Próximo Paso?</span></h2>
+        <h2 style={{ fontSize: '2.5rem', lineHeight: '1.2' }}>Inicia tu camino hacia la <span className="text-gradient">Excelencia Educativa</span></h2>
         <p style={{ color: 'var(--text-secondary)' }}>
           Completa el formulario a la derecha y nuestro equipo te contactará en menos de 24 horas hábiles para ayudarte con todas tus consultas.
         </p>
@@ -106,10 +106,10 @@ export default function ContactForm() {
           </a>
 
           {/* Website */}
-          <a href="https://escuelaecan.com" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '12px', textDecoration: 'none', color: 'inherit' }}>
+          <a href="https://www.cristoalasnaciones.com/ecanelsalvador/" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '12px', textDecoration: 'none', color: 'inherit' }}>
             <span style={{ fontSize: '1.1rem', flexShrink: 0 }}>🌐</span>
             <div>
-              <div style={{ fontSize: '0.95rem', fontWeight: 600, color: 'var(--primary)' }}>escuelaecan.com</div>
+              <div style={{ fontSize: '0.95rem', fontWeight: 600, color: 'var(--primary)' }}>cristoalasnaciones.com</div>
               <div style={{ fontSize: '0.78rem', color: 'var(--text-secondary)' }}>Sitio web oficial</div>
             </div>
           </a>
