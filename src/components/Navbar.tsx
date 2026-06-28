@@ -55,12 +55,9 @@ export default function Navbar() {
       className="navbar-header glass-panel" 
       style={{ 
         padding: '8px 0',
-        position: 'fixed',
+        position: 'sticky',
         top: 0,
-        left: 0,
-        right: 0,
-        width: '100vw',
-        zIndex: 999999
+        zIndex: 1000
       }}
     >
       <div className="container navbar-container" style={{ height: '96px' }}>
