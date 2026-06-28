@@ -210,7 +210,7 @@ export default function Gallery() {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.25 }}
             style={{
-              position: 'fixed', inset: 0, zIndex: 99999,
+              position: 'fixed', inset: 0, zIndex: 9999999,
               background: 'rgba(0,0,0,0.93)',
               display: 'flex', alignItems: 'center', justifyContent: 'center',
               padding: '24px',
